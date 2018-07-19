@@ -100,7 +100,9 @@ public class Phonebook {
 		//IMPORTANT Lesson:
 		//		The input buffer can be opened only once and closed only once
 		Phonebook pb = new Phonebook();			
+		System.out.println("Creating Phone Book");
 		pb.readPhonebook(s);	
+		System.out.println("Query Phone Book");
 		pb.queryPhoneBook(s);
 		s.close();
 	}
